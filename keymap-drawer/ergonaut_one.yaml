@@ -1,0 +1,173 @@
+layers:
+  default:
+  - {t: '`', h: Esc}
+  - Z
+  - Y
+  - U
+  - A
+  - Q
+  - P
+  - B
+  - M
+  - L
+  - F
+  - J
+  - ↹
+  - {t: C, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: I, h: LEFT SHIFT}
+  - {t: E, h: Ctrl}
+  - O
+  - D
+  - {t: T, h: Ctrl}
+  - {t: N, h: RIGHT SHIFT}
+  - {t: R, h: RIGHT ALT}
+  - {t: H, h: LEFT GUI}
+  - '-'
+  - \
+  - V
+  - X
+  - '['
+  - ''''
+  - ;
+  - W
+  - G
+  - ','
+  - .
+  - K
+  - Sft+ -
+  - {t: /, h: toggle}
+  - {t: Gui+ V, h: lower}
+  - {t: ⏎, h: raise}
+  - {t: Esc, h: lower}
+  - {t: ⌫, h: raise}
+  - {t: BACKSPACE, h: toggle}
+  lower:
+  - {t: F1, h: toggle}
+  - {t: '1', h: F1}
+  - {t: '2', h: F2}
+  - {t: '3', h: F3}
+  - {t: '4', h: F4}
+  - {t: '5', h: F5}
+  - {t: '6', h: F6}
+  - {t: '7', h: F7}
+  - {t: '8', h: F8}
+  - {t: '9', h: F9}
+  - {t: '0', h: F10}
+  - F11
+  - {t: +, h: Ctrl}
+  - Sft+ 1
+  - Sft+ 2
+  - Sft+ 3
+  - Sft+ 4
+  - Sft+ 5
+  - Sft+ 6
+  - Sft+ 7
+  - Sft+ 8
+  - Sft+ 8
+  - Sft+ 9
+  - {t: Sft+ \, h: toggle}
+  - {t: '=', h: Alt}
+  - '1'
+  - '2'
+  - '3'
+  - 'Sft+ #'
+  - Sft+ ]
+  - '#'
+  - ']'
+  - AGr+ 8
+  - AGr+ 9
+  - AGr+ -
+  - Alt
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  raise:
+  - {t: KP NUM, h: Gui}
+  - KP SLASH
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - Vol Up
+  - Home
+  - UP ARROW
+  - Page Up
+  - SLCK
+  - CLCK
+  - {t: '=', h: Ctrl}
+  - KP MULTIPLY
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - MUTE
+  - ←
+  - ↑
+  - →
+  - Insert
+  - {t: APP, h: Ctrl}
+  - Alt
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DOT
+  - Vol Down
+  - End
+  - PRINTSCREEN
+  - Page Down
+  - Pause Break
+  - Alt
+  - {t: ▽, type: trans}
+  - APPLICATION
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - Boot
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Boot
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR
+  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
