@@ -39,7 +39,7 @@ layers:
   - {t: /, h: toggle}
   - {t: Gui+ V, h: lower}
   - {t: ⏎, h: raise}
-  - {t: Esc, h: lower}
+  - {t: ␣, h: lower}
   - {t: ⌫, h: raise}
   - {t: BACKSPACE, h: toggle}
   lower:
