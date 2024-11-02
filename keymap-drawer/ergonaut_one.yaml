@@ -166,8 +166,8 @@ layers:
   - ''
   - Reset
   - {t: ▽, type: trans}
-  - ''
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
