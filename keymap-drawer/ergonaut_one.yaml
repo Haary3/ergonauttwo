@@ -41,7 +41,7 @@ layers:
   - {t: ⏎, h: raise}
   - {t: ␣, h: lower}
   - {t: ⌫, h: raise}
-  - BACKSPACE
+  - {t: BACKSPACE, h: /}
   lower:
   - {t: F1, h: toggle}
   - {t: '1', h: F1}
@@ -64,8 +64,8 @@ layers:
   - Sft+ 6
   - Sft+ 7
   - Sft+ 8
-  - Sft+ 8
   - Sft+ 9
+  - Sft+ 0
   - {t: Sft+ \, h: toggle}
   - {t: '=', h: Alt}
   - '1'
