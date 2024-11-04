@@ -1,8 +1,8 @@
 layers:
   default:
   - {t: '`', h: Esc}
-  - Z
   - Y
+  - Z
   - U
   - A
   - Q
@@ -36,12 +36,12 @@ layers:
   - .
   - K
   - Sft+ -
-  - {t: /, h: toggle}
+  - /
   - {t: Gui+ V, h: lower}
   - {t: ⏎, h: raise}
   - {t: ␣, h: lower}
   - {t: ⌫, h: raise}
-  - {t: BACKSPACE, h: toggle}
+  - BACKSPACE
   lower:
   - {t: F1, h: toggle}
   - {t: '1', h: F1}
