@@ -24,7 +24,7 @@ layers:
   - {t: R, h: RIGHT ALT}
   - {t: H, h: LEFT GUI}
   - '-'
-  - \
+  - '|'
   - V
   - X
   - '['
