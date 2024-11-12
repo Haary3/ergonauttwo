@@ -13,7 +13,7 @@ layers:
   - F
   - J
   - ↹
-  - {t: C, h: LEFT GUI}
+  - C
   - {t: S, h: LEFT ALT}
   - {t: I, h: LEFT SHIFT}
   - {t: E, h: Ctrl}
@@ -22,7 +22,7 @@ layers:
   - {t: T, h: Ctrl}
   - {t: N, h: RIGHT SHIFT}
   - {t: R, h: RIGHT ALT}
-  - {t: H, h: LEFT GUI}
+  - H
   - '-'
   - '|'
   - V
@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - K
-  - Sft+ -
+  - {t: Sft+ -, h: RIGHT GUI}
   - /
   - {t: Gui+ V, h: lower}
   - {t: ⏎, h: raise}
@@ -46,7 +46,7 @@ layers:
   - {t: F1, h: toggle}
   - {t: '1', h: F1}
   - {t: '2', h: F2}
-  - {t: '3', h: F3}
+  - {t: Gui+ UP ARROW, h: toggle}
   - {t: '4', h: F4}
   - {t: '5', h: F5}
   - {t: '6', h: F6}
@@ -57,9 +57,9 @@ layers:
   - F11
   - {t: +, h: Ctrl}
   - Sft+ 1
-  - Sft+ 2
-  - Sft+ 3
-  - Sft+ 4
+  - Gui+ LEFT ARROW
+  - Gui+ DOWN ARROW
+  - Gui+ RIGHT ARROW
   - Sft+ 5
   - Sft+ 6
   - Sft+ 7
@@ -72,8 +72,8 @@ layers:
   - '2'
   - '3'
   - 'Sft+ #'
+  - 'Sft+ #'
   - Sft+ ]
-  - '#'
   - ']'
   - AGr+ 8
   - AGr+ 9
