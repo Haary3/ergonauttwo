@@ -46,7 +46,7 @@ layers:
   - {t: F1, h: toggle}
   - {t: '1', h: F1}
   - {t: '2', h: F2}
-  - {t: Gui+ UP ARROW, h: toggle}
+  - {t: '5', h: F5}
   - {t: '4', h: F4}
   - {t: '5', h: F5}
   - {t: '6', h: F6}
@@ -57,9 +57,9 @@ layers:
   - F11
   - {t: +, h: Ctrl}
   - Sft+ 1
-  - Gui+ LEFT ARROW
-  - Gui+ DOWN ARROW
-  - Gui+ RIGHT ARROW
+  - Sft+ 2
+  - Sft+ 3
+  - Sft+ 4
   - Sft+ 5
   - Sft+ 6
   - Sft+ 7
@@ -89,7 +89,7 @@ layers:
   - {t: KP NUM, h: Gui}
   - KP SLASH
   - KP 7
-  - KP 8
+  - Gui+ UP ARROW
   - KP 9
   - KP MINUS
   - Vol Up
@@ -100,9 +100,9 @@ layers:
   - CLCK
   - {t: '=', h: Ctrl}
   - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
+  - Gui+ LEFT ARROW
+  - Gui+ DOWN ARROW
+  - Gui+ RIGHT ARROW
   - KP PLUS
   - MUTE
   - ←

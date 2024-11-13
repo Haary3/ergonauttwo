@@ -44,19 +44,19 @@
 
         lower_layer {
             bindings = <
-&kt F1          &mt F1 NUMBER_1   &mt F2 NUMBER_2     &kt LG(UP_ARROW)    &mt F4 NUMBER_4      &mt F5 N5            &mt F6 NUMBER_6        &mt F7 NUMBER_7    &mt F8 NUMBER_8   &mt F9 NUMBER_9   &mt F10 NUMBER_0  &kp F11
-&mt LCTRL PLUS  &kp LS(NUMBER_1)  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(N5)           &kp LS(NUMBER_6)       &kp LS(NUMBER_7)   &kp LS(N8)        &kp LS(N9)        &kp LS(N0)        &kt LS(BACKSLASH)
-&mt LALT EQUAL  &kp N1            &kp N2              &kp N3              &kp LS(NON_US_HASH)  &kp LS(NON_US_HASH)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &kp RA(MINUS)     &kp RALT
-                                                      &trans              &trans               &trans               &trans                 &trans             &trans
+&kt F1          &mt F1 NUMBER_1   &mt F2 NUMBER_2   &mt F5 NUMBER_5   &mt F4 NUMBER_4      &mt F5 N5            &mt F6 NUMBER_6        &mt F7 NUMBER_7    &mt F8 NUMBER_8   &mt F9 NUMBER_9   &mt F10 NUMBER_0  &kp F11
+&mt LCTRL PLUS  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)     &kp LS(N5)           &kp LS(NUMBER_6)       &kp LS(NUMBER_7)   &kp LS(N8)        &kp LS(N9)        &kp LS(N0)        &kt LS(BACKSLASH)
+&mt LALT EQUAL  &kp N1            &kp N2            &kp N3            &kp LS(NON_US_HASH)  &kp LS(NON_US_HASH)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &kp RA(MINUS)     &kp RALT
+                                                    &trans            &trans               &trans               &trans                 &trans             &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9          &kp KP_MINUS  &kp C_VOL_UP  &kp HOME  &kp UP_ARROW     &kp PG_UP  &kp SLCK         &kp CLCK
-&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6          &kp KP_PLUS   &kp C_MUTE    &kp LEFT  &kp DOWN_ARROW   &kp RIGHT  &kp INS          &mt RCTRL K_APP
-&kp LALT         &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3          &kp KP_DOT    &kp C_VOL_DN  &kp END   &kp PRINTSCREEN  &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
-                                             &trans     &kp K_APPLICATION  &trans        &trans        &trans    &trans
+&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7           &kp LG(UP_ARROW)    &kp KP_N9            &kp KP_MINUS  &kp C_VOL_UP  &kp HOME  &kp UP_ARROW     &kp PG_UP  &kp SLCK         &kp CLCK
+&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp KP_PLUS   &kp C_MUTE    &kp LEFT  &kp DOWN_ARROW   &kp RIGHT  &kp INS          &mt RCTRL K_APP
+&kp LALT         &kp KP_N0        &kp KP_N1           &kp KP_N2           &kp KP_N3            &kp KP_DOT    &kp C_VOL_DN  &kp END   &kp PRINTSCREEN  &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
+                                                      &trans              &kp K_APPLICATION    &trans        &trans        &trans    &trans
             >;
         };
 
