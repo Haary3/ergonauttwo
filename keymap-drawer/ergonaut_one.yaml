@@ -110,7 +110,7 @@ layers:
   - →
   - Insert
   - {t: APP, h: Ctrl}
-  - Alt
+  - LEFT GUI
   - KP 0
   - KP 1
   - KP 2
