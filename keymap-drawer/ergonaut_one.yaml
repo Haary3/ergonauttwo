@@ -11,7 +11,7 @@ layers:
   - M
   - L
   - F
-  - J
+  - {t: J, h: ⌦}
   - ↹
   - C
   - {t: S, h: LEFT ALT}
@@ -35,9 +35,9 @@ layers:
   - ','
   - .
   - K
-  - {t: Sft+ -, h: RIGHT GUI}
+  - {t: Sft+-, h: RIGHT GUI}
   - /
-  - {t: Gui+ V, h: lower}
+  - {t: Gui+V, h: lower}
   - {t: ⏎, h: raise}
   - {t: ␣, h: lower}
   - {t: ⌫, h: raise}
@@ -56,28 +56,28 @@ layers:
   - {t: '0', h: F10}
   - F11
   - {t: +, h: Ctrl}
-  - Sft+ 1
-  - Sft+ 2
-  - Sft+ 3
-  - Sft+ 4
-  - Sft+ 5
-  - Sft+ 6
-  - Sft+ 7
-  - Sft+ 8
-  - Sft+ 9
-  - Sft+ 0
-  - {t: Sft+ \, h: toggle}
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+0
+  - {t: Sft+\, h: toggle}
   - {t: '=', h: Alt}
   - '1'
   - '2'
   - '3'
-  - 'Sft+ #'
-  - 'Sft+ #'
-  - Sft+ ]
+  - Sft+#
+  - Sft+#
+  - Sft+]
   - ']'
-  - AGr+ 8
-  - AGr+ 9
-  - AGr+ -
+  - AltGr+8
+  - AltGr+9
+  - AltGr+-
   - Alt
   - {t: ▽, type: trans}
   - {type: held}
@@ -89,7 +89,7 @@ layers:
   - {t: KP NUM, h: Gui}
   - KP SLASH
   - KP 7
-  - Gui+ UP ARROW
+  - Gui+UP ARROW
   - KP 9
   - KP MINUS
   - Vol Up
@@ -100,9 +100,9 @@ layers:
   - CLCK
   - {t: '=', h: Ctrl}
   - KP MULTIPLY
-  - Gui+ LEFT ARROW
-  - Gui+ DOWN ARROW
-  - Gui+ RIGHT ARROW
+  - Gui+LEFT ARROW
+  - Gui+DOWN ARROW
+  - Gui+RIGHT ARROW
   - KP PLUS
   - MUTE
   - ←
